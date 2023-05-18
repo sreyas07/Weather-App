@@ -6,7 +6,8 @@
 
 @media only screen and (max-width:500px) {
   .App{
-    margin: -68px;
+    margin: -42px;
+    padding-top: 50px;
     border: 0;
     background: linear-gradient(130deg,rgb(151, 203, 255),rgb(80, 167, 255));
   }
