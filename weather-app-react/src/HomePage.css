@@ -17,9 +17,9 @@
 }
 
 .search{
-    display: inline-flex;
+    display: inline;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .search input{
@@ -136,5 +136,13 @@
       display: grid;
       text-align: left;
       padding: 20px;
+    }
+
+    .weather{
+        width: 331px;
+        margin: 25px;
+        padding: 20px;
+        justify-content: center;
+        text-align: center;
     }
 }
