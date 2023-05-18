@@ -129,20 +129,20 @@
 
 @media only screen and (max-width:500px) {
     .container{
-     padding: 20px 20px 20px;
-     margin: 25px 25px;
-    }
-    .details .col{
-      display: grid;
-      text-align: left;
-      padding: 20px;
-    }
-
-    .weather{
-        width: 331px;
-        margin: 25px;
-        padding: 20px;
-        justify-content: center;
+        width:auto;
+        padding: auto;
+        border-radius: 10px;
+        margin: auto;
         text-align: center;
-    }
+        color: black;
+      }
+      
+      .weather{
+        width: 331px;
+        padding: 5px;
+        text-align: center;
+        color: black;
+        border-radius: 10px;
+        background: rgb(237, 241, 242,0.8);
+      }
 }
