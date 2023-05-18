@@ -1,0 +1,140 @@
+.container{
+  width: fit-content;
+  padding: 25px 25px 25px 25px;
+  border-radius: 10px;
+  margin: 10px auto 10px auto;
+  text-align: center;
+  color: black;
+}
+
+.weather{
+    width: 380px;
+    padding: 30px;
+    text-align: center;
+    color: black;
+    border-radius: 10px;
+    background: rgb(237, 241, 242,0.8)
+}
+
+.search{
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search input{
+    border: none;
+    outline: 0;
+    padding: 12px 25px;
+    font-size:18px;
+    background-color: rgb(160, 191, 204);
+    color: black;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 12px;
+}
+
+.search button{
+    background-color: rgb(160, 191, 204);
+    border: none;
+    outline: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.search button img{
+    width: 20px;
+}
+
+.winfo .icon{
+    margin-top: 20px;
+    width: 150px;
+}
+
+.winfo h1{
+    font-size: 70px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.winfo h2{
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: -40px;
+}
+
+.winfo p {
+    font-size: 20px;
+    font-weight: 200;
+    margin-top: -60px;
+    padding: 5px;
+
+  }
+
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    margin-top: 20px;
+}
+
+.details .col{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+    padding: 20px;
+}
+
+.details .col img{
+    width: 45px;
+    margin-right: 10px;
+
+}
+.humidity, .wind{
+    font-size: 27px;
+}
+
+.humidity p , .wind p{
+   margin: 0px;
+   font-size: 16px;
+   font-weight: 500;
+}
+
+.error {
+    color: rgb(126, 26, 26);
+    text-align: center;
+  
+  }
+
+  .locationIcon {
+    display: flex;
+    width: 25px;
+    height: 25px;
+    margin-top: -20px;
+    padding-right: 7px;
+  }
+
+
+
+  .heading {
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    color: rgb(35, 45, 59);
+  }
+
+@media only screen and (max-width:400px) {
+    .container{
+     padding: 20px 20px 20px;
+     margin: 50px 80px;
+    }
+    .details .col{
+      display: grid;
+      text-align: left;
+      padding: 20px;
+    }
+}
