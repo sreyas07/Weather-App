@@ -19,7 +19,7 @@
 .search{
     display: inline;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .search input{
@@ -144,5 +144,10 @@
         color: black;
         border-radius: 10px;
         background: rgb(237, 241, 242,0.8);
+      }
+
+      .search input{
+        padding: 12px 20px;
+        margin-right: 5pxpx;
       }
 }
