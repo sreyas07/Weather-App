@@ -132,7 +132,7 @@
         width:auto;
         padding: auto;
         border-radius: 10px;
-        margin: auto;
+        margin: auto -10px;
         text-align: center;
         color: black;
       }
