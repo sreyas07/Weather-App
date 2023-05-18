@@ -4,7 +4,7 @@
   background: linear-gradient(130deg,rgb(151, 203, 255),rgb(80, 167, 255));
 }
 
-@media only screen and (max-width:400px) {
+@media only screen and (max-width:500px) {
   .App{
     margin: -68px;
     border: 0;
